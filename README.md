@@ -21,29 +21,7 @@ Despesas Parlamentares do CEAP (Cota para o Exercício da Atividade Parlamentar)
 
 ## Arquitetura Medalhão
 
-```
-Banco Relacional
-      │
-      ▼
-┌─────────────┐
-│   LANDING   │  CSV – dados brutos extraídos da origem
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│   BRONZE    │  Delta Lake – dados brutos, sem transformação
-└──────┬──────┘
-       │  Data Quality
-       ▼
-┌─────────────┐
-│   SILVER    │  Delta Lake – dados limpos e confiáveis
-└──────┬──────┘
-       │  Ralph Kimball
-       ▼
-┌─────────────┐
-│    GOLD     │  Delta Lake – Star Schema para análise
-└─────────────┘
-```
+![Arquitetura Medalhão](assets/imagem_github.jpeg)
 
 ---
 
