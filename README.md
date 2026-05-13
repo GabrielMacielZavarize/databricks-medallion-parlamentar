@@ -5,6 +5,16 @@ Pipeline de dados implementando a **Arquitetura Medalhão** (Landing → Bronze 
 
 ---
 
+## Integrantes
+
+| Nome | GitHub |
+|------|--------|
+| Gabriel Maciel Zavarize | [GabrielMacielZavarize](https://github.com/GabrielMacielZavarize) |
+| Pedro Henrique Harter Marques | [PedroHarter](https://github.com/PedroHarter) |
+| Wilian Vieira Fernandes | [WilianVieiraF](https://github.com/WilianVieiraF) |
+
+---
+
 ## Domínio dos Dados
 
 Despesas Parlamentares do CEAP (Cota para o Exercício da Atividade Parlamentar) da Câmara dos Deputados Federal do Brasil. O dataset contém 5 tabelas relacionais:
@@ -83,7 +93,7 @@ databricks-medallion-parlamentar/
 3. Crie um Job com 4 tasks na ordem: `00 → 01 → 02 → 03`
 4. Execute o Job
 
-Consulte a [documentação completa](docs/index.md) para o passo a passo detalhado.
+Consulte a [documentação completa](https://GabrielMacielZavarize.github.io/databricks-medallion-parlamentar/) para o passo a passo detalhado.
 
 ---
 
