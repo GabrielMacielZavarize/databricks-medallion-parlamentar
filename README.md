@@ -84,3 +84,17 @@ databricks-medallion-parlamentar/
 4. Execute o Job
 
 Consulte a [documentação completa](docs/index.md) para o passo a passo detalhado.
+
+---
+
+## Referências
+
+- [Databricks Free Edition](https://www.databricks.com/learn/training/databricks-free-edition) – Plataforma utilizada para execução dos notebooks e Jobs
+- [Delta Lake](https://delta.io/) – Formato de armazenamento ACID com suporte a time travel e versionamento
+- [Apache Spark](https://spark.apache.org/) – Motor de processamento distribuído utilizado via PySpark
+- [Arquitetura Medalhão](https://www.databricks.com/glossary/medallion-architecture) – Padrão de design Landing → Bronze → Silver → Gold
+- [Ralph Kimball – Dimensional Modeling](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) – Metodologia utilizada na camada Gold (Star Schema)
+- [CEAP – Câmara dos Deputados](https://www2.camara.leg.br/transparencia/acesso-a-informacao/copy_of_glossario/cota-para-o-exercicio-da-atividade-parlamentar) – Origem dos dados de despesas parlamentares
+- [MkDocs](https://www.mkdocs.org/) – Gerador de documentação estática
+- [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material/) – Tema utilizado na documentação
+- [GitHub Pages](https://pages.github.com/) – Hospedagem da documentação
