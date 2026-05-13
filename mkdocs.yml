@@ -1,0 +1,19 @@
+site_name: Lakehouse – Arquitetura Medalhão
+site_description: Pipeline Databricks com Delta Lake implementando Landing, Bronze, Silver e Gold
+site_author: Gabriel Maciel Zavarize
+repo_url: https://github.com/GabrielMacielZavarize/databricks-medallion-parlamentar
+
+theme:
+  name: material
+  palette:
+    primary: green
+    accent: orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+nav:
+  - Início: index.md
+  - Arquitetura: arquitetura.md
+  - Camadas do Pipeline: camadas.md
