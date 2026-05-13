@@ -2,30 +2,7 @@
 
 ## Visão Geral
 
-```
-Banco Relacional (SQL Server)
-          │
-          │  Extração (CSV)
-          ▼
-   ┌─────────────┐
-   │   LANDING   │  5 tabelas em CSV no DBFS
-   └──────┬──────┘
-          │  Ingestão Delta
-          ▼
-   ┌─────────────┐
-   │   BRONZE    │  5 tabelas Delta Lake (raw)
-   └──────┬──────┘
-          │  Data Quality
-          ▼
-   ┌─────────────┐
-   │   SILVER    │  5 tabelas Delta Lake (clean)
-   └──────┬──────┘
-          │  Modelagem Dimensional
-          ▼
-   ┌─────────────┐
-   │    GOLD     │  6 tabelas: 5 dims + 1 fato
-   └─────────────┘
-```
+![Arquitetura Medalhão](../assets/imagem_github.jpeg)
 
 ## Star Schema (Gold)
 
