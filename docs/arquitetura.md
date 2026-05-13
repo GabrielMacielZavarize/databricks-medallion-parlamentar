@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-![Arquitetura Medalhão](../assets/imagem_github.jpeg)
+![Arquitetura Medalhão](assets/imagem_github.jpeg)
 
 ## Star Schema (Gold)
 
