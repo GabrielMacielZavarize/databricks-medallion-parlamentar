@@ -467,29 +467,7 @@
 
 <h1 id="arquitetura">Arquitetura</h1>
 <h2 id="visao-geral">Visão Geral</h2>
-<pre><code>Banco Relacional (SQL Server)
-          │
-          │  Extração (CSV)
-          ▼
-   ┌─────────────┐
-   │   LANDING   │  5 tabelas em CSV no DBFS
-   └──────┬──────┘
-          │  Ingestão Delta
-          ▼
-   ┌─────────────┐
-   │   BRONZE    │  5 tabelas Delta Lake (raw)
-   └──────┬──────┘
-          │  Data Quality
-          ▼
-   ┌─────────────┐
-   │   SILVER    │  5 tabelas Delta Lake (clean)
-   └──────┬──────┘
-          │  Modelagem Dimensional
-          ▼
-   ┌─────────────┐
-   │    GOLD     │  6 tabelas: 5 dims + 1 fato
-   └─────────────┘
-</code></pre>
+<p><img alt="Arquitetura Medalhão" src="../assets/imagem_github.jpeg" /></p>
 <h2 id="star-schema-gold">Star Schema (Gold)</h2>
 <pre><code>              ┌──────────────────┐
               │    dim_tempo     │
